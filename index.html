@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
   <head>
     <title>Static Comp 3</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -8,28 +8,28 @@
   <body>
     <section class="grid-box1">
       <article class="man-name">
-        <img src=photos/man.png class="man">
+        <img src=photos/man.png class="man" aria-label="photo of Sidney Lang">
         <h3 class="man-text">Sidney Lang</h3>
       </article>
     <hr class="nav-hr hr-disappear1">
       <article class="nav-main">
         <h4 class="nav-title">Main</h4>
           <button class="nav-btn btn">
-            <img src="photos/home.png" class="nav-icon">
+            <img src="photos/home.png" class="nav-icon" aria-label="home icon">
             <span class="disappear">HOME</span>
           </button>
           <button class="nav-btn btn">
-            <img src="photos/jobs.png" class="nav-icon">
+            <img src="photos/jobs.png" class="nav-icon" aria-label="jobs icon">
             <span class="disappear">JOBS</span>
           </button>
           <button class="nav-btn btn">
-            <img src="photos/resumes.png" class="nav-icon"><span class="disappear">RESUMES</span>
+            <img src="photos/resumes.png" class="nav-icon" aria-label="resumes icon"><span class="disappear">RESUMES</span>
           </button>
           <button class="nav-btn btn">
-            <img src="photos/tasks.png" class="nav-icon"><span class="disappear">TASKS</span>
+            <img src="photos/tasks.png" class="nav-icon" aria-label="tasks icon"><span class="disappear">TASKS</span>
           </button>
           <button class="nav-btn bottom-btn btn">
-            <img src="photos/calendar.png" class="nav-icon">
+            <img src="photos/calendar.png" class="nav-icon" aria-label="calendar icon">
             <span class="disappear">CALENDAR</span>
           </button>
         <hr class="nav-hr">
@@ -41,19 +41,19 @@
             <span class="disappear">USERS</span>
           </button>
           <button class="admin-btn btn">
-            <img src="photos/locations.png" class="nav-icon">
+            <img src="photos/locations.png" class="nav-icon" aria-label="users icon">
             <span class="disappear">LOCATION</span>
           </button>
           <button class="admin-btn btn">
-            <img src="photos/workflows.png" class="nav-icon">
+            <img src="photos/workflows.png" class="nav-icon" aria-label="workflows icon">
             <span class="disappear">WORKFLOWS</span>
             </button>
             <button class="admin-btn btn">
-              <img src="photos/job-boards.png" class="nav-icon">
+              <img src="photos/job-boards.png" class="nav-icon" aria-label="job boards icon">
               <span class="disappear">JOB BOARDS</span>
             </button>
             <button class="admin-btn bottom-btn btn">
-              <img src="photos/social.png" class="nav-icon">
+              <img src="photos/social.png" class="nav-icon" aria-label="administrative icon">
               <span class="disappear">SOCIAL</span>
             </button>
           <hr class="nav-hr">
@@ -61,29 +61,29 @@
         <article class="nav-categories"> 
           <h4 class="nav-title">Categories</h4>
             <button class="cat-btn btn">
-              <img src="photos/yellow-box.png" class="cat-icon">Administrative
+              <img src="photos/yellow-box.png" class="cat-icon" aria-label="Check here for administrative">Administrative
             </button>
             <button class="cat-btn btn">
-              <img src="photos/blue-box.png" class="cat-icon">Design
+              <img src="photos/blue-box.png" class="cat-icon" aria-label="Check here for design">Design
             </button>
             <button class="cat-btn btn">
-              <img src="photos/red-box.png" class="cat-icon">Executive
+              <img src="photos/red-box.png" class="cat-icon" aria-label="Check here for executive">Executive
             </button>
             <button class="cat-btn btn">
-              <img src="photos/green-box.png" class="cat-icon">Human Resources
+              <img src="photos/green-box.png" class="cat-icon" aria-label="Check here for human resources">Human Resources
             </button>
         </article>
     </section> 
     <section class="grid-box2">
       <button class="search-btn btn">
-        <img src="photos/hamburger.png" id="search-icon">
+        <img src="photos/hamburger.png" id="search-icon" aria-label="drop search menu">
       </button>
-        <input type="text" id="search" placeholder="Search">
+        <input type="text" id="search" placeholder="Search" aria-label="Click to search website">
       <button class="search-btn btn">
-        <img src="photos/user-tie.png" id="search-icon">
+        <img src="photos/user-tie.png" id="search-icon" aria-label="Cick for professional development">
       </button>
       <button class="search-btn btn">
-        <img src="photos/calendar2.png" id="search-icon">
+        <img src="photos/calendar2.png" id="search-icon" aria-label="Click to see upcoming events">
       </button>
     </section>
     <section class="grid-box3">
@@ -91,7 +91,7 @@
       </h1>
         <span class="circ-buttons">
           <button class="inline oval-btn btn">
-            <img src="photos/circle.png" class="green-circle">OPEN
+            <img src="photos/circle.png" class="green-circle" aria-label="Click to see or hear resume">OPEN
           </button>
           <button class="inline round-btn btn">
             <img src="photos/flag.png" class="round-img">
@@ -122,15 +122,15 @@
         </span>
     </section>
     <section class="grid-box4">
-      <div id="circle1" class="circle">
+      <div role="graph" id="circle1" class="circle" aria-label="1542 Resumes Sent Out">
         <h3 class="circle-head">1542</h3>
           <p class="circle-content">RESUMES</p>
       </div>
-      <div id="circle2" class="circle">
+      <div role="graph" id="circle2" class="circle" aria-label="2838 Interviews Conducted">
         <h3 class="circle-head">2838</h3>
           <p class="circle-content">INTERVIEWS</p>
       </div>
-      <div id="circle3" class="circle">
+      <div role="graph" id="circle3" class="circle" aria-label="4819 Forwarded Resumes">
         <h3 class="circle-head">4819</h3>
           <p class="circle-content">FORWARDS</p>
       </div>
@@ -138,14 +138,14 @@
       </button>
     </section>
     <section class="grid-box5">
-     <img src="photos/bar-chart.png" class="bar-graph">
+     <img src="photos/bar-chart.png" class="bar-graph" aria-label="Bar graph Applicants by Days">
      <button class="stretch-btn2 btn">Applicants/Days
      </button>
     </section>
   </hr>
     <section class="grid-box6">
       <span class="table-span">
-        <table align="center" class="emp-table">
+        <table align="center" class="emp-table" aria-label="Condensed Resume for Sidney Lang">
           <h2>
             <tbody>
               <tr>
@@ -199,8 +199,8 @@
         </h3>
           <p class="ipsum">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.
           </p>
-        <div class="input">
-          <input type="text" placeholder="Link Here" class="input-box">
+        <div class="input" role="copy link">
+          <input type="text" placeholder="Link Here" class="input-box" aria-label="Click here to Copy this link">
             <span class="input-btn">
               <button class="btn copy-btn" type="button">Copy
               </button>
@@ -210,8 +210,8 @@
         </h3>
           <p class="ipsum">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.
           </p>
-        <div class="input">
-          <input type="text" placeholder="Use Widget" class="input-box">
+        <div class="input" role="copy widget">
+          <input type="text" placeholder="Use Widget" class="input-box" aria-label="Click here to Copy this widget">
             <span class="input-btn">
               <button class="btn copy-btn" type="button">Copy
               </button>
@@ -222,13 +222,13 @@
         </h3>
           <p class="ipsum">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.
           </p>
-        <div class="input">
-          <input type="text" placeholder="Upload Resume" class="input-box" >
+        <div class="input" role="input resume">
+          <input type="text" placeholder="Upload Resume" class="input-box" aria-label="Click here to upload your resume">
             <span class="input-btn">
               <button class="btn copy-btn" type="button">Copy
               </button>
             </span>
-          </div>
+        </div>
       </article>
   </body>
 </html>
